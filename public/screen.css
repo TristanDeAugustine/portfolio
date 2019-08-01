@@ -15,5 +15,34 @@ body {
   /* insert image */
   background-image: url(./images/space.png);
   background-size: cover;
+  background-repeat: no-repeat;
   /* fix image size */
+}
+
+/* headshot */
+.bighead {
+  width: 300px;
+  max-width: 45%;
+  margin: 12rem 0 0 7rem;
+  border-radius: 6px;
+}
+
+/* bubble text manipulator */
+.textbox {
+  background-color: antiquewhite;
+  opacity: 0.5;
+  border-radius: 6px;
+  margin-left: 1rem;
+  font-size: 1.9rem;
+  line-height: 0.2;
+}
+
+/* layout for img/speech bubble */
+
+.container1 {
+  display: flex;
+  align-items: center;
+}
+
+.container2 {
 }
