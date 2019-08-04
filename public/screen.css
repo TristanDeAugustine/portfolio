@@ -66,7 +66,7 @@ div ul {
 
 /* REACT IMAGE */
 .border_1 {
-  margin-bottom: 2rem;
+  margin-bottom: none;
   background-color: #1e1a28;
 }
 
@@ -126,4 +126,17 @@ header.react {
   height: 1rem;
   width: 8rem;
   border-radius: 10%;
+}
+
+header.code {
+  height: 5rem;
+  background-image: url(./images/code.png);
+  background-position: center;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fffefe;
 }
