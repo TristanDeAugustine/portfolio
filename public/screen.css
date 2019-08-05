@@ -140,3 +140,27 @@ header.code {
   font-size: 2rem;
   color: #fffefe;
 }
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.twitter {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.Copyright {
+  text-align: center;
+  color: white;
+}
+
+@media {
+  max-width: 700px;
+}
